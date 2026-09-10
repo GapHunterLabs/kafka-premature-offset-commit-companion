@@ -9,6 +9,14 @@ implicitly (no manual commit at all, relying on Kafka's own default
 `enable.auto.commit=true`, which commits on the next `poll()` cycle
 regardless of whether the dispatched work finished).
 
+## Screenshots
+
+![Screenshot 1](docs/screenshots/Screenshot_1.png)
+
+![Screenshot 2](docs/screenshots/Screenshot_2.png)
+
+![Screenshot 3](docs/screenshots/Screenshot_3.png)
+
 ## Why it exists
 
 If the consumer crashes between the commit and the real completion of
