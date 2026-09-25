@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Fixed
+
+- Review/star CTA now links to this plugin's own Marketplace
+  reviews page instead of the vendor's generic plugin list.
+
 ## [0.1.0]
 
 ### Added
@@ -16,5 +23,6 @@
   dispatch, absence of a synchronous wait, and the commit shape
   (explicit vs. default auto-commit).
 
-[Unreleased]: https://github.com/GapHunterLabs/kafka-premature-offset-commit-companion/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/GapHunterLabs/kafka-premature-offset-commit-companion/compare/0.1.1...HEAD
+[0.1.1]: https://github.com/GapHunterLabs/kafka-premature-offset-commit-companion/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/GapHunterLabs/kafka-premature-offset-commit-companion/commits/0.1.0
