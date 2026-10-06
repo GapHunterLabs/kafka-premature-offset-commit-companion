@@ -1,0 +1,11 @@
+<html>
+<body>
+Reports a Kafka consumer poll loop that hands records to asynchronous work (<code>ExecutorService.submit(...)</code>,
+<code>CompletableFuture.runAsync(...)</code>/<code>supplyAsync(...)</code>) and commits offsets before that work has
+finished (no <code>.get()</code>, <code>.join()</code> or <code>.awaitTermination()</code> first).
+<!-- tooltip end -->
+<p>The commit can be explicit (<code>commitSync()</code>/<code>commitAsync()</code>) or implicit through the default
+<code>enable.auto.commit=true</code>, which commits on the next <code>poll()</code>. If the process stops before the async
+work completes, those records are marked as consumed and never processed.</p>
+</body>
+</html>
